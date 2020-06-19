@@ -1,0 +1,119 @@
+/*.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #111d5e;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Alfa Slab One', cursive;
+  text-shadow: 5px 0 #ffbd69;
+  font-size: 8rem;
+  color: #c70039;
+}
+
+p {
+  font-size: 2rem;
+  color: #c70039;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Alfa Slab One', cursive;
+
+}*/
+
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dice {
+  text-align: center;
+}
+
+body {
+  background-color: #111d5e;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px;
+  font-family: 'Alfa Slab One', cursive;
+  text-shadow: 5px 0 #ffbd69;
+  font-size: 8rem;
+  color: #c70039;
+}
+
+p {
+  font-size: 2rem;
+  color: #c70039;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+img {
+  width: 60%;
+}
+
+button {
+  background-color: #c70039;
+  color: #ffbd69;
+  font-family: 'Alfa Slab One', cursive;
+  border: none;
+  border-radius:0.12em;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 10px;
+}
+
+button:hover {
+  background-image: linear-gradient(#c70039, grey);
+}
+
+.btn-container {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.win-animation {
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+  margin-top: 5px;
+}
+
+footer {
+  margin-top: 2%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Alfa Slab One', cursive;
+
+}
+
+
+/* Media query */
+@media screen and (max-width: 586px){
+  h1 {
+    font-size: 4rem;
+  }
+}
